@@ -3,8 +3,9 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { MdClose } from "react-icons/md";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { motion } from "framer-motion";
+ // eslint-disable-next-line
 import { logo, logoLight } from "../../../assets/images";
-import Image from "../../designLayouts/Image";
+// import Image from "../../designLayouts/Image";
 import { navBarList } from "../../../constants";
 import Flex from "../../designLayouts/Flex";
 
@@ -32,7 +33,8 @@ const Header = () => {
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
             <div>
-              <Image className="w-20 object-cover" imgSrc={logo} />
+              {/* <Image className="w-20 object-cover" imgSrc={logo} /> */}
+              <div><h2 style={{fontSize: "35px", fontFamily: "fantasy", backgroundColor:"ghostwhite"}}>Hadi</h2></div>
             </div>
           </Link>
           <div>
